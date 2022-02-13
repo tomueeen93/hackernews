@@ -1,7 +1,7 @@
 package graph
 
 import (
-	"hackernews/graph/model"
+	"github.com/tomueeen93/hackernews/graph/model"
 )
 
 // This file will not be regenerated automatically.

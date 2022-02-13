@@ -6,12 +6,12 @@ package graph
 import (
 	"context"
 	"fmt"
-	"hackernews/graph/generated"
-	"hackernews/graph/model"
-	"hackernews/internal/auth"
-	"hackernews/internal/links"
-	"hackernews/internal/users"
-	"hackernews/pkg/jwt"
+	"github.com/tomueeen93/hackernews/graph/generated"
+	"github.com/tomueeen93/hackernews/graph/model"
+	"github.com/tomueeen93/hackernews/internal/auth"
+	"github.com/tomueeen93/hackernews/internal/links"
+	"github.com/tomueeen93/hackernews/internal/users"
+	"github.com/tomueeen93/hackernews/pkg/jwt"
 	"strconv"
 )
 

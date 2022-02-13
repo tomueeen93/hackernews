@@ -2,8 +2,8 @@ package users
 
 import (
 	"database/sql"
+	database "github.com/tomueeen93/hackernews/internal/pkg/db/mysql"
 	"golang.org/x/crypto/bcrypt"
-	database "hackernews/internal/pkg/db/mysql"
 
 	"log"
 )

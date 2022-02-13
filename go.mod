@@ -1,4 +1,4 @@
-module hackernews
+module github.com/tomueeen93/hackernews
 
 go 1.17
 

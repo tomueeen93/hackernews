@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"hackernews/graph/model"
+	"github.com/tomueeen93/hackernews/graph/model"
 	"strconv"
 	"sync"
 	"sync/atomic"

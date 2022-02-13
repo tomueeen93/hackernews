@@ -1,10 +1,10 @@
 package main
 
 import (
-	graph "hackernews/graph"
-	generated "hackernews/graph/generated"
-	auth "hackernews/internal/auth"
-	database "hackernews/internal/pkg/db/mysql"
+	graph "github.com/tomueeen93/hackernews/graph"
+	generated "github.com/tomueeen93/hackernews/graph/generated"
+	auth "github.com/tomueeen93/hackernews/internal/auth"
+	database "github.com/tomueeen93/hackernews/internal/pkg/db/mysql"
 	"log"
 	"net/http"
 	"os"

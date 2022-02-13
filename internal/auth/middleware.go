@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"hackernews/internal/users"
-	"hackernews/pkg/jwt"
+	"github.com/tomueeen93/hackernews/internal/users"
+	"github.com/tomueeen93/hackernews/pkg/jwt"
 )
 
 var userCtxKey = &contextKey{"user"}

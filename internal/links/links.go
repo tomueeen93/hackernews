@@ -1,8 +1,8 @@
 package links
 
 import (
-	database "hackernews/internal/pkg/db/mysql"
-	"hackernews/internal/users"
+	database "github.com/tomueeen93/hackernews/internal/pkg/db/mysql"
+	"github.com/tomueeen93/hackernews/internal/users"
 	"log"
 )
 
