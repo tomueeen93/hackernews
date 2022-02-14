@@ -24,7 +24,7 @@ mysql> exit;
 ```
 
 Create tables
-```
+```console
 % go get -u github.com/go-sql-driver/mysql
 % go build -tags 'mysql' -ldflags="-X main.Version=1.0.0" -o $GOPATH/bin/migrate github.com/golang-migrate/migrate/v4/cmd/migrate/
 % cd internal/pkg/db/migrations/
@@ -33,7 +33,7 @@ Create tables
 ```
 
 Run application
-```
+```console
 % cd hackernews
 % go mod tidy
 % go run server.go
